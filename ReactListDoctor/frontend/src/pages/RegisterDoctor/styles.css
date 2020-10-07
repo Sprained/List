@@ -1,0 +1,14 @@
+.title-register-doctor {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  color: #696969;
+}
+
+.footer_copy_doctor {
+  margin-top: 50px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2f33;
+}

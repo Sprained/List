@@ -1,0 +1,174 @@
+.register-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.content-form {
+  margin-top: 50px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputLongo {
+  display: flex;
+  justify-content: center;
+  width: 61.5vw;
+}
+
+.p-inputLongo {
+  color: #696969;
+  margin-bottom: 5px;
+  margin-left: 27px;
+}
+
+.input-inputLongo {
+  height: 35px;
+  width: 600px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+  margin-right: 25px;
+  margin-left: 26px;
+}
+
+.inputs {
+  width: 61.02vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.p-inputs {
+  color: #696969;
+  margin-bottom: 5px;
+  margin-left: 33px;
+}
+
+.p-input-direita {
+  color: #696969;
+  margin-bottom: 5px;
+}
+
+.inputs-inputs {
+  width: 275px;
+  height: 35px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+  margin-right: 55.5px;
+  margin-left: 32.5px;
+}
+
+.input-direita {
+  width: 270px;
+  height: 35px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+  margin-right: 25px;
+}
+
+.inputs-pequenos {
+  width: 61.02vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.input1 {
+  width: 190px;
+  margin-right: 20px;
+  margin-left: 39.5px;
+  height: 35px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+}
+
+.input2 {
+  width: 186px;
+  margin-right: 23px;
+  height: 35px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+}
+
+.input3 {
+  width: 182px;
+  margin-right: 32px;
+  height: 35px;
+  border: 1px solid #696969;
+  border-radius: 6px;
+}
+
+.p-input-1 {
+  color: #696969;
+  margin-bottom: 5px;
+  margin-left: 39.5px;
+}
+
+.p-input-2 {
+  color: #696969;
+  margin-bottom: 5px;
+  margin-left: 1px;
+}
+
+.p-input-3 {
+  color: #696969;
+  margin-bottom: 5px;
+  margin-left: 1px;
+}
+
+.inputLongo2 {
+  display: flex;
+  justify-content: center;
+  width: 61.5vw;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  color:#696969;
+}
+
+.btn {
+  background-color: #660066;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+  margin-top: 10px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.divButton {
+  display: flex;
+  justify-content: center;
+  width: 61.02vw;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.checkboxdiv {
+  display: flex;
+  justify-content: center;
+  width: 58.02vw;
+  margin-top: 10px;
+}
+
+.fontcolorcheckbox {
+  color: #696969;
+}

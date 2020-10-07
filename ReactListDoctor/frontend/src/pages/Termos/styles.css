@@ -1,0 +1,24 @@
+.termosdiv {
+  height: auto;
+  width: 80vw;
+  background-color:  #edeff2;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.containerdiv {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font {
+  font-size: 14px;
+}
+
+.marginli {
+  margin-left: 25px;
+  font-size: 14px;
+}

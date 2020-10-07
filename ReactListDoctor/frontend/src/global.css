@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Arial, sans-serif;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+input, button, textarea {
+  font: 400 18px Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+form textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 140px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 18px 24px;
+  line-height: 24px;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.back-link svg {
+  margin-right: 8px;
+}
+
+.back-link:hover {
+  opacity: 0.8;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+main {
+  flex: 1;
+}
+
+section#main {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  background-image: url("../src/assets/homebackground.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: #fff;
+  text-shadow: 1px 0 0 #cccccc, -1px 0 0 #cccccc, 0 1px 0 #cccccc,
+    0 -1px 0 #cccccc, 1px 1px #cccccc, -1px -1px 0 #cccccc, 1px -1px 0 #cccccc,
+    -1px 1px 0 #cccccc;
+}
+
+section#benefits {
+  background-color: #edeff2;
+}
+
+.benefits-item {
+  flex: 1;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  height: 80px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #696969;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: purple;
+}
+
+.Logo {
+  display: flex;
+  float: left;
+  width: 180px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.footer_copy {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2f33;
+  margin-top: 30px;
+}
+
+.footer_text {
+  color: white;
+}
